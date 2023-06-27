@@ -16,3 +16,5 @@ MERN social media app with auth, pagination, comments
     - Add comments to a post
     - Search memories, search memories by tags
 
+![Screenshot1](https://github.com/Isa1asN/Social_media_app/blob/master/client/src/images/screenshot.jpg?raw=true)
+
