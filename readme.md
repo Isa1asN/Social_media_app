@@ -3,6 +3,7 @@ MERN social media app with auth, pagination, comments
 * ## Redux state management
 * ## Express
 * ## MongoDB
+* ## MUI
 
 
 ## Features of the App:-
@@ -18,5 +19,6 @@ MERN social media app with auth, pagination, comments
 
 ![Screenshot1](https://github.com/Isa1asN/Social_media_app/blob/master/client/src/images/screenshot.jpg?raw=true)
 ![Screenshot2](https://github.com/Isa1asN/Social_media_app/blob/master/client/src/images/screenshot2.jpg?raw=true)
+
 
 
