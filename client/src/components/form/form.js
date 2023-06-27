@@ -6,6 +6,7 @@ import FileBase from 'react-file-base64';
 import useStyles from './styles';
 import { createPost, updatePost } from '../../Actions/posts';
 
+
 const Form = ({ currentId, setCurrentId }) => {
   const [postData, setPostData] = useState({ creator: '', title: '', message: '', tags: '', selectedFile: '' });
   const post = useSelector((state) => (currentId ? state.posts.find((message) => message._id === currentId) : null));
