@@ -2,6 +2,8 @@ import PostMessage from "../models/post.js";
 
 export const getPosts = async (req, res) => {
     try {
+        console.log(req.body)
+
         const PostMessages = await PostMessage.find();
         res.status(200).json(PostMessages)
     } catch (error) {
@@ -11,6 +13,7 @@ export const getPosts = async (req, res) => {
 
 export const createPost = async (req, res) => {
     try {
+        console.log(req.body)
         const post = req.body;
         const exist = await PostMessage.find({title : post.title})
         if(exist.length > 0){
@@ -25,3 +28,4 @@ export const createPost = async (req, res) => {
     }
 
 }
+
